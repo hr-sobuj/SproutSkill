@@ -2274,36 +2274,36 @@
 @font-face {
   font-family: Gilroy;
   font-weight: 300;
-  src: url(../assets/fonts/Gilroy-Regular.eot);
-  src: url(../assets/fonts/Gilroy-Regular.eot?#iefix) format("embedded-opentype"), url(../assets/fonts/Gilroy-Regular.woff2) format("woff2"), url(../assets/fonts/Gilroy-Regular.woff) format("woff"), url(../assets/fonts/Gilroy-Regular.ttf) format("truetype")
+  src: url(../fonts/Gilroy-Regular.eot);
+  src: url(../fonts/Gilroy-Regular.eot?#iefix) format("embedded-opentype"), url(../fonts/Gilroy-Regular.woff2) format("woff2"), url(../fonts/Gilroy-Regular.woff) format("woff"), url(../fonts/Gilroy-Regular.ttf) format("truetype")
 }
 
 @font-face {
   font-family: Gilroy;
   font-weight: 500;
-  src: url(../assets/fonts/Gilroy-Medium.eot);
-  src: url(../assets/fonts/Gilroy-Medium.eot?#iefix) format("embedded-opentype"), url(../assets/fonts/Gilroy-Medium.woff2) format("woff2"), url(../assets/fonts/Gilroy-Medium.woff) format("woff"), url(../assets/fonts/Gilroy-Medium.ttf) format("truetype")
+  src: url(../fonts/Gilroy-Medium.eot);
+  src: url(../fonts/Gilroy-Medium.eot?#iefix) format("embedded-opentype"), url(../fonts/Gilroy-Medium.woff2) format("woff2"), url(../fonts/Gilroy-Medium.woff) format("woff"), url(../fonts/Gilroy-Medium.ttf) format("truetype")
 }
 
 @font-face {
   font-family: Gilroy;
   font-weight: 600;
-  src: url(../assets/fonts/Gilroy-SemiBold.eot);
-  src: url(../assets/fonts/Gilroy-SemiBold.eot?#iefix) format("embedded-opentype"), url(../assets/fonts/Gilroy-SemiBold.woff2) format("woff2"), url(../assets/fonts/Gilroy-SemiBold.woff) format("woff"), url(../assets/fonts/Gilroy-SemiBold.ttf) format("truetype")
+  src: url(../fonts/Gilroy-SemiBold.eot);
+  src: url(../fonts/Gilroy-SemiBold.eot?#iefix) format("embedded-opentype"), url(../fonts/Gilroy-SemiBold.woff2) format("woff2"), url(../fonts/Gilroy-SemiBold.woff) format("woff"), url(../fonts/Gilroy-SemiBold.ttf) format("truetype")
 }
 
 @font-face {
   font-family: Gilroy;
   font-weight: 700;
-  src: url(../assets/fonts/Gilroy-SemiBold.eot);
-  src: url(../assets/fonts/Gilroy-Bold.eot?#iefix) format("embedded-opentype"), url(../assets/fonts/Gilroy-Bold.woff2) format("woff2"), url(../assets/fonts/Gilroy-Bold.woff) format("woff"), url(../assets/fonts/Gilroy-Bold.ttf) format("truetype")
+  src: url(../fonts/Gilroy-SemiBold.eot);
+  src: url(../fonts/Gilroy-Bold.eot?#iefix) format("embedded-opentype"), url(../fonts/Gilroy-Bold.woff2) format("woff2"), url(../fonts/Gilroy-Bold.woff) format("woff"), url(../fonts/Gilroy-Bold.ttf) format("truetype")
 }
 
 @font-face {
   font-family: Gilroy;
   font-weight: 800;
-  src: url(../assets/fonts/Gilroy-ExtraBold.eot);
-  src: url(../assets/fonts/Gilroy-ExtraBold.eot?#iefix) format("embedded-opentype"), url(../assets/fonts/Gilroy-ExtraBold.woff2) format("woff2"), url(../assets/fonts/Gilroy-ExtraBold.woff) format("woff"), url(../assets/fonts/Gilroy-ExtraBold.ttf) format("truetype")
+  src: url(../fonts/Gilroy-ExtraBold.eot);
+  src: url(../fonts/Gilroy-ExtraBold.eot?#iefix) format("embedded-opentype"), url(../fonts/Gilroy-ExtraBold.woff2) format("woff2"), url(../fonts/Gilroy-ExtraBold.woff) format("woff"), url(../fonts/Gilroy-ExtraBold.ttf) format("truetype")
 }
 
 @media (max-width:991.98px) {
@@ -2572,7 +2572,7 @@ img {
   position: relative;
   background-color: #fff;
   color: #183b56;
-  background-image: url(../assets/images/carat.svg);
+  background-image: url(../images/carat.svg);
   background-repeat: no-repeat;
   background-position: right 12px center;
   background-size: 12px 12px;
@@ -3174,7 +3174,7 @@ h6 {
 
 .slick-next,
 .slick-prev {
-  background-image: url(../assets/images/arrow-next.svg)
+  background-image: url(../images/arrow-next.svg)
 }
 
 .slick-dots li .slick-dots li button:hover,
@@ -3371,7 +3371,7 @@ h6 {
 
 @media (min-width:992px) {
   .blog-search .s {
-    background: url(../assets/images/search.svg) 20px 14px no-repeat;
+    background: url(../images/search.svg) 20px 14px no-repeat;
     padding-left: 3.3rem
   }
 }
@@ -4175,7 +4175,7 @@ h6 {
   width: 10px;
   height: 10px;
   display: block;
-  background: url(../assets/images/arrow-small.svg) center center no-repeat;
+  background: url(../images/arrow-small.svg) center center no-repeat;
   transform: rotate(90deg);
   position: absolute;
   top: 16px;
@@ -4198,7 +4198,7 @@ h6 {
     top: auto;
     right: auto;
     margin: -2px 0 0 10px;
-    background: url(../assets/images/arrow-small.svg) center center no-repeat
+    background: url(../images/arrow-small.svg) center center no-repeat
   }
 
   .menu-item-has-children.active span>a::after {
@@ -4207,7 +4207,7 @@ h6 {
 }
 
 .menu-item-has-children span:hover>a::after {
-  background-image: url(../assets/images/arrow-small-blue.svg)
+  background-image: url(../images/arrow-small-blue.svg)
 }
 
 @media (min-width:1110px) {
@@ -4221,7 +4221,7 @@ h6 {
 
   .current-menu-item span>a.nav-link::after,
   .menu-item-has-children.active span>a.nav-link::after {
-    background: url(../assets/images/arrow-small.svg) center center no-repeat;
+    background: url(../images/arrow-small.svg) center center no-repeat;
     transform: rotate(-90deg)
   }
 
@@ -4416,7 +4416,7 @@ h6 {
     width: 10px;
     height: 10px;
     display: block;
-    background: url(../assets/images/arrow-small.svg) center center no-repeat;
+    background: url(../images/arrow-small.svg) center center no-repeat;
     transform: rotate(90deg);
     position: absolute;
     top: 25px;
@@ -4453,7 +4453,7 @@ h6 {
   }
 
   .nav-main .nav-mega .nav-mega-has-drop a {
-    background: url(../assets/images/arrow-small.svg) right 20px center no-repeat
+    background: url(../images/arrow-small.svg) right 20px center no-repeat
   }
 
   .nav-main .nav-mega .nav-mega-has-drop.active>a {
@@ -4516,7 +4516,7 @@ h6 {
   width: 25px;
   height: 25px;
   margin-left: 2px;
-  background: url(../assets/images/new-badge.png) center no-repeat;
+  background: url(../images/new-badge.png) center no-repeat;
   background-size: contain
 }
 
@@ -4856,7 +4856,7 @@ h6 {
     width: 819px;
     height: 102px;
     z-index: -1;
-    background-image: url(../assets/images/bg-dots.svg)
+    background-image: url(../images/bg-dots.svg)
   }
 
   .block-3-photo .block-calculator-form fieldset.gfield .gfield_label,
@@ -5814,7 +5814,7 @@ h6 {
 
 .block-calculator-results-cta em::before {
   height: 22px;
-  background: url(../assets/images/underline-alt.svg) bottom left no-repeat
+  background: url(../images/underline-alt.svg) bottom left no-repeat
 }
 
 .block-calculator-results-cta em::after {
@@ -5907,7 +5907,7 @@ h6 {
   right: 1.5rem;
   width: 12px;
   height: 12px;
-  background-image: url(../assets/images/carat.svg);
+  background-image: url(../images/carat.svg);
   background-repeat: no-repeat;
   background-position: top right;
   background-size: 12px 12px;
@@ -6182,7 +6182,7 @@ h6 {
   left: 20px;
   width: 25px;
   height: 25px;
-  background-image: url(../assets/images/check.svg);
+  background-image: url(../images/check.svg);
   background-size: 24px 24px;
   background-repeat: no-repeat;
   background-position: top 1px left
@@ -6262,11 +6262,11 @@ h6 {
 }
 
 .block-comparison .option .features li.icon-yes {
-  background-image: url(../assets/images/check.svg)
+  background-image: url(../images/check.svg)
 }
 
 .block-comparison .option .features li.icon-no {
-  background-image: url(../assets/images/x.svg)
+  background-image: url(../images/x.svg)
 }
 
 .block-comparison .option .features li:first-child {
@@ -7073,7 +7073,7 @@ h6 {
   display: inline-block;
   width: 100%;
   height: 22px;
-  background: url(../assets/images/underline.svg) bottom left no-repeat
+  background: url(../images/underline.svg) bottom left no-repeat
 }
 
 .block-hero .block-post__text .post,
@@ -7252,7 +7252,7 @@ h6 {
 }
 
 .block-hero22::after {
-  background: url(../assets/images/waves.svg) center no-repeat;
+  background: url(../images/waves.svg) center no-repeat;
   bottom: 5%;
   height: 180px
 }
@@ -8051,7 +8051,7 @@ h6 {
   font-size: .875rem;
   margin-bottom: .5rem;
   list-style-type: none;
-  background-image: url(../assets/images/check.svg);
+  background-image: url(../images/check.svg);
   background-size: 24px 24px;
   background-repeat: no-repeat;
   background-position: top 1px left;
@@ -8468,7 +8468,7 @@ h6 {
 
 .block-quote-single__photo picture::before {
   content: "";
-  background: url(../assets/images/quote.svg) center center no-repeat;
+  background: url(../images/quote.svg) center center no-repeat;
   background-size: 17px;
   display: block;
   width: 17px;
@@ -8638,14 +8638,14 @@ h6 {
   top: 40%;
   width: 66px;
   height: 200px;
-  background: url(../assets/images/carat-light.svg) center no-repeat #233543;
+  background: url(../images/carat-light.svg) center no-repeat #233543;
   border-radius: 8px 0 0 8px
 }
 
 .block-quote-slider .slick-next.slick-disabled,
 .block-quote-slider .slick-prev.slick-disabled {
   opacity: 1;
-  background-image: url(../assets/images/carat-dark.svg);
+  background-image: url(../images/carat-dark.svg);
   background-color: #fff
 }
 
@@ -8960,7 +8960,7 @@ h6 {
 
 .block-quote .quotes2 .slick-next {
   position: absolute;
-  background: url(../assets/images/arrow-circle.png) center center no-repeat;
+  background: url(../images/arrow-circle.png) center center no-repeat;
   background-size: 50px 50px;
   width: 50px;
   height: 50px;
@@ -9692,7 +9692,7 @@ h6 {
 
 @media (min-width:768px) {
   .block-testimonials blockquote {
-    background-image: url(../assets/images/quote.png);
+    background-image: url(../images/quote.png);
     background-size: 68px 68px;
     background-repeat: no-repeat;
     background-position: left 4rem top .5rem;
@@ -9776,7 +9776,7 @@ h6 {
 
 .block .wysiwyg li {
   list-style-type: none;
-  background-image: url(../assets/images/check.svg);
+  background-image: url(../images/check.svg);
   background-size: 24px 24px;
   background-repeat: no-repeat;
   background-position: top 1px left;
