@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        poppins: ['Marcellus', 'serif'],
+        marcellus: ['Marcellus', 'serif'],
+        play: ['Play', 'sans-serif'],
       },
     },
   },
