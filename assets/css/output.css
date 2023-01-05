@@ -583,22 +583,6 @@ video {
   display: contents;
 }
 
-.w-\[60\%\]{
-  width: 60%;
-}
-
-.w-\[50\%\]{
-  width: 50%;
-}
-
-.w-\[30\%\]{
-  width: 30%;
-}
-
-.w-\[40\%\]{
-  width: 40%;
-}
-
 .w-full{
   width: 100%;
 }
@@ -617,6 +601,16 @@ video {
 
 .gap-5{
   gap: 1.25rem;
+}
+
+.\!bg-lime-500{
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(132 204 22 / var(--tw-bg-opacity)) !important;
+}
+
+.text-5xl{
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .font-bold{
@@ -640,10 +634,6 @@ body{
 }
 
 @media (min-width: 1024px){
-  .lg\:w-\[40\%\]{
-    width: 40%;
-  }
-
   .lg\:grid-cols-3{
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
